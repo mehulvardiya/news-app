@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Thomas Matthew Crooks: What we know about Donald Trump's attacker",
+      "description": "The 20-year-old registered Republican purchased ammunition the day of the rally, authorities say.",
+      "url": "https://www.bbc.co.uk/news/articles/c3gw58wv4e9o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/57b3/live/ed698a60-42b7-11ef-b74c-bb483a802c97.jpg",
+      "publishedAt": "2024-07-19T02:37:13.73981Z",
+      "content": "Thomas Crooks had not been carrying ID, so investigators used DNA and facial recognition technology to identify him, the FBI said.\r\nHe was from Bethel Park in Pennsylvania, about 70km (43 miles) from… [+3187 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Trump gunman flagged by Secret Service 20 minutes before shooting",
+      "description": "A timeline of the events leading up to the attempted assassination of Trump has begun to emerge.",
+      "url": "https://www.bbc.co.uk/news/articles/c51ydg792ggo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8eef/live/64adf370-44d1-11ef-96a8-e710c6bfc866.jpg",
+      "publishedAt": "2024-07-19T02:22:16.8328317Z",
+      "content": "House lawmakers similarly were briefed on Wednesday by law enforcement about security and what led up to the Saturday shooting. \r\nRepublican Speaker of the House Mike Johnson also called for Ms Cheat… [+2290 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Trump family: a guide to an American dynasty",
+      "description": "Here is what you need to know about the Trump family.",
+      "url": "https://www.bbc.co.uk/news/articles/ckmgly0mlz1o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/24c1/live/31519550-4499-11ef-b781-99a72a91e752.jpg",
+      "publishedAt": "2024-07-19T02:22:15.0207828Z",
+      "content": "Donald Trump Jr, the eldest of the Trump children, has taken on a larger role in the years since his father left the White House. \r\nHe was prominent in the media during the selection of Trump's runni… [+344 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Biden announces cap on rent prices",
+      "description": "The plan would cut off tax benefits for landlords if they raise rent by more than 5%.",
+      "url": "https://www.bbc.co.uk/news/articles/c1we330wvn0o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/3032/live/8f266030-437b-11ef-b99a-59ce5748eb16.jpg",
+      "publishedAt": "2024-07-19T01:37:16.5673624Z",
+      "content": "President Joe Biden has announced a new plan to halt rent increases in the US, as Americans battle soaring housing prices. \r\nMr Biden's proposal - which requires congressional approval - would cut of… [+2460 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Father of Trump gunman called police about son before attack",
+      "description": "The gunman's father was reportedly concerned about his son and told police he'd vanished without any notice.",
+      "url": "https://www.bbc.co.uk/news/articles/cv2gr0nm0lzo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/06b6/live/002d94f0-4567-11ef-a56a-13e345c0edee.jpg",
+      "publishedAt": "2024-07-19T01:37:15.036495Z",
+      "content": "The father of the gunman who tried to assassinate Donald Trump called police before the Saturday shooting because he was concerned about his son, according to media reports. \r\nThe call is one of a nu… [+3553 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Democratic mood darkens as Biden faces new pressure",
+      "description": "A new poll shows Trump with his biggest lead of the campaign, as high-level Democrats are reportedly expressing fresh concern.",
+      "url": "https://www.bbc.co.uk/news/articles/c51y2v4vv7ko",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6198/live/57a605e0-453b-11ef-8102-c9e8652d6cfd.jpg",
+      "publishedAt": "2024-07-19T00:07:13.2697858Z",
+      "content": "Mr Obama was reported by the Washington Post to have privately stated Mr Biden's chances were greatly diminished. Spokespeople for the former president have declined to comment. \r\nThe polls and repor… [+3282 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Giorgia Meloni:  Journalist told to pay damages for mocking Italian PM's height",
+      "description": "A reporter is told to pay €5,000 for posts that a judge ruled amounted to \"body shaming\".",
+      "url": "https://www.bbc.co.uk/news/articles/cnk41nnl125o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/a2e2/live/37374aa0-4552-11ef-97a8-1de6cd95b291.jpg",
+      "publishedAt": "2024-07-18T23:52:09.3026422Z",
+      "content": "The pair first clashed in October 2021, when Ms Meloni's far-right Brothers of Italy party was still in opposition, after Ms Cortese posted a mocked-up image of Ms Meloni on X, formerly Twitter. \r\nMs… [+1449 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "American comedian Bob Newhart dead at 94, publicist says",
+      "description": "American comedian Bob Newhart dead at 94, publicist says",
+      "url": "https://www.bbc.co.uk/news/articles/cd1xe8p1pq1o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1a2d/live/537ff930-6139-11ee-b101-6f93d6dfbcc2.png",
+      "publishedAt": "2024-07-18T20:52:14.5671941Z",
+      "content": "This breaking news story is being updated and more details will be published shortly. Please refresh the page for the fullest version.\r\nYou can receive Breaking News on a smartphone or tablet via the… [+93 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Super Bowl winner 'wrongly handcuffed' on United Airlines flight",
+      "description": "The airline has apologised to Terrell Davis and says it has removed the flight attendant from duty.",
+      "url": "https://www.bbc.co.uk/news/articles/crg5zl0vdv0o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/f9ea/live/ac970240-4507-11ef-95e9-f5f2d4f7082d.jpg",
+      "publishedAt": "2024-07-18T18:22:16.8639862Z",
+      "content": "Posting on his Instagram, Mr Davis released a statement explaining that during the flight's beverage service his son had asked for a cup of ice. \r\nIn an effort to get his son the ice, Mr Davis said h… [+821 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Dana White and Donald Trump's long friendship culminates at RNC",
+      "description": "The UFC chief and the ex-president have grown ever closer since their first business deal in 2001.",
+      "url": "https://www.bbc.co.uk/news/articles/c4ng948r84go",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/d4b3/live/9a59aab0-4507-11ef-95e9-f5f2d4f7082d.jpg",
+      "publishedAt": "2024-07-18T18:07:12.3798622Z",
+      "content": "Back then, Mr White - an Irish-American college dropout turned boxercise instructor - had gone from managing two mixed martial arts champions to becoming UFC president.\r\nMMA had been facing a downtur… [+849 chars]"
+    }
+  ]
+}
