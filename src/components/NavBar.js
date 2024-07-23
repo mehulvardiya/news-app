@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export class NavBar extends Component {
   render() {
+    const { mode, toggleMode } = this.props;
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}>
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               NewsMonkey
@@ -84,6 +86,24 @@ export class NavBar extends Component {
                   </ul>
                 </li>
               </ul>
+
+              <div
+                className={`form-check form-switch text-${
+                  mode === "light" ? "dark" : "light"
+                }`}
+              >
+               <button 
+                  onClick={toggleMode} 
+                  className="btn btn-outline-secondary"
+                  aria-label="Toggle theme"
+                >
+                  {mode === "light" ? (
+                    <i className="fas fa-moon"></i>
+                  ) : (
+                    <i className="fas fa-sun"></i>
+                  )}
+                </button>
+              </div>
             </div>
           </div>
         </nav>
