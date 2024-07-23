@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class NavBar extends Component {
   render() {
@@ -6,14 +7,14 @@ export class NavBar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               NewsMonkey
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="/navbarSupportedContent"
+              data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
@@ -26,68 +27,59 @@ export class NavBar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/">
+                  <Link className="nav-link" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
-
-                <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    About Us
-                  </a>
-                </li>
-
                 <li className="nav-item dropdown">
-                  <a
+                  <Link
                     className="nav-link dropdown-toggle"
-                    href="/"
+                    to="/"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Category
-                  </a>
+                  </Link>
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a className="dropdown-item" href="/business">
+                      <Link className="dropdown-item" to="/business">
                         Business
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/entertainment">
+                      <Link className="dropdown-item" to="/entertainment">
                         Entertainment
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/general">
+                      <Link className="dropdown-item" to="/general">
                         General
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <li>
-                        <a className="dropdown-item" href="/health">
-                          Health
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/science">
-                          Science
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/sports">
-                          Sports
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/technology">
-                          Technology
-                        </a>
-                      </li>
+                      <Link className="dropdown-item" to="/health">
+                        Health
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/science">
+                        Science
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/sports">
+                        Sports
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/technology">
+                        Technology
+                      </Link>
                     </li>
                   </ul>
                 </li>
