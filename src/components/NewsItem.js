@@ -7,7 +7,10 @@ export class NewsItem extends Component {
     return (
       <div className="my-3">
         <div className="card mb-2" style={{ maxWidth: "540px" }}>
-          <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left:'95%',zIndex:'1'}}>
+          <span
+            className="position-absolute top-0 translate-middle badge rounded-pill bg-danger"
+            style={{ left: "95%", zIndex: "1" }}
+          >
             {source}
           </span>
           <div className="row g-0">
@@ -30,7 +33,7 @@ export class NewsItem extends Component {
                   {title}
                 </h5>
                 <p className="card-text">{description}...</p>
-                <p className="card-text">
+                <p className="card-text " style={{ fontSize: "0.75em",color:"blue" }}>
                   By {!author ? "unknown" : author} on{" "}
                   {new Date(publishedAt).toGMTString()}
                 </p>

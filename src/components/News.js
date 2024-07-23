@@ -7,14 +7,14 @@ export class News extends Component {
   static defaultProps = {
     country: "in",
     pageSize: 10,
-    category:'business'
-  }
+    category: "business",
+  };
 
   static propTypes = {
     country: PropTypes.string,
     pageSize: PropTypes.number,
     category: PropTypes.string,
-  }
+  };
 
   constructor() {
     super();
@@ -24,7 +24,7 @@ export class News extends Component {
       page: 1,
     };
   }
-  async updateNews(){
+  async updateNews() {
     const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=70dc55f5c1014426850924169993c796&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
@@ -37,16 +37,16 @@ export class News extends Component {
   }
 
   async componentDidMount() {
-   this.updateNews();
+    this.updateNews();
   }
 
   handlePreviousClick = async () => {
-    this.setState({page:this.state.page-1})
+    this.setState({ page: this.state.page - 1 });
     this.updateNews();
   };
 
   handleNextClick = async () => {
-    this.setState({page:this.state.page+1})
+    this.setState({ page: this.state.page + 1 });
     this.updateNews();
   };
 
@@ -61,8 +61,12 @@ export class News extends Component {
               return (
                 <div className="col-md-6" key={element.url}>
                   <NewsItem
-                    title={element.title ? element.title: ""}
-                    description={element.description ? element.description.slice(0, 88) : ""}
+                    title={element.title ? element.title : ""}
+                    description={
+                      element.description
+                        ? element.description.slice(0, 88)
+                        : ""
+                    }
                     imageUrl={element.urlToImage}
                     newsUrl={element.url}
                     author={element.author}
