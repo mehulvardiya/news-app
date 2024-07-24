@@ -17,13 +17,19 @@ export class News extends Component {
     mode: PropTypes.string,
   };
 
-  constructor() {
-    super();
+  capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [],
       loading: true,
       page: 1,
     };
+    document.title = `${this.capitalizeFirstLetter(
+      this.props.category
+    )}- NewsMonkey`;
   }
 
   async updateNews() {
@@ -55,17 +61,27 @@ export class News extends Component {
   render() {
     const { mode } = this.props;
     return (
-      <div className="container my-2" style={{color: mode === 'dark' ? 'white' : 'black' }}>
-        <h2 className="text-center">NewsMonkey - Top Headlines</h2>
+      <div
+        className="container my-2"
+        style={{ color: mode === "dark" ? "white" : "black" }}
+      >
+        <h2 className="text-center">
+          NewsMonkey - Top {this.capitalizeFirstLetter(this.props.category)}{" "}
+          Headlines
+        </h2>
         {this.state.loading && <Spinner />}
         <div className="row">
           {!this.state.loading &&
             this.state.articles.map((element) => {
               return (
-                <div className="col-md-6" key={element.url}>
+                <div className="col-md-4" key={element.url}>
                   <NewsItem
                     title={element.title ? element.title : ""}
-                    description={element.description ? element.description.slice(0, 88) : ""}
+                    description={
+                      element.description
+                        ? element.description.slice(0, 88)
+                        : ""
+                    }
                     imageUrl={element.urlToImage}
                     newsUrl={element.url}
                     author={element.author}
@@ -82,17 +98,26 @@ export class News extends Component {
             type="button"
             className="btn"
             onClick={this.handlePreviousClick}
-            style={{ backgroundColor: mode === 'dark' ? 'white' : 'black', color: mode === "dark" ? 'black' : 'white' }}
+            style={{
+              backgroundColor: mode === "dark" ? "white" : "black",
+              color: mode === "dark" ? "black" : "white",
+            }}
           >
             &larr; Previous
           </button>
 
           <button
-            disabled={this.state.page + 1 > Math.ceil(this.state.totalResults / this.props.pageSize)}
+            disabled={
+              this.state.page + 1 >
+              Math.ceil(this.state.totalResults / this.props.pageSize)
+            }
             type="button"
             className="btn"
             onClick={this.handleNextClick}
-            style={{ backgroundColor: mode === 'dark' ? 'white' : 'black', color: mode === "dark" ? 'black' : 'white' }}
+            style={{
+              backgroundColor: mode === "dark" ? "white" : "black",
+              color: mode === "dark" ? "black" : "white",
+            }}
           >
             Next &rarr;
           </button>

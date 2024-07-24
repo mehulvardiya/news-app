@@ -14,11 +14,11 @@ const App = () => {
       document.body.style.backgroundColor = "#343a40";
     } else {
       setMode("light");
-      document.body.style.backgroundColor = "#e0e0e0a3";
+      document.body.style.backgroundColor = "white";
     }
   };
 
-  const pageSize = 16;
+  const pageSize = 15;
 
   return (
     <div>
