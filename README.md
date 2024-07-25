@@ -31,7 +31,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
 ## Learn More
+**---------------------How to Api Key hide-------------------**
+### `create .env.local and give it name REACT_APP_NEWS_API="key....." and in App.js pass props const apiKey = process.env.REACT_APP_NEWS_API;` 
+See the section about (https://create-react-app.dev/docs/adding-custom-environment-variables/) for more information.
 
 **---------------------IMPORTANT PACKAGES TO INSTALL-------------------**
 
