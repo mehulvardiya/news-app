@@ -88,7 +88,7 @@ export class NavBar extends Component {
               </ul>
 
               <div
-                className={`form-check form-switch text-${
+                className={` text-${
                   mode === "light" ? "dark" : "light"
                 }`}
               >
