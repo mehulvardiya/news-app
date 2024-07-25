@@ -21,6 +21,7 @@ export class News extends Component {
   capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -35,7 +36,7 @@ export class News extends Component {
   }
 
   async updateNews() {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=70dc55f5c1014426850924169993c796&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=c542815563a941898f25aaffdd9a5ade&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -51,13 +52,13 @@ export class News extends Component {
   }
 
   fetchMoreData = async () => {
-    this.setState({ page: this.state.page + 1 });
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=70dc55f5c1014426850924169993c796&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const nextPage = this.state.page + 1;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=c542815563a941898f25aaffdd9a5ade&page=${nextPage}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parsedData = await data.json();
     this.setState({
       articles: this.state.articles.concat(parsedData.articles),
-      totalResults: parsedData.totalResults
+      page: nextPage,
     });
   };
 
@@ -87,7 +88,7 @@ export class News extends Component {
           dataLength={this.state.articles.length}
           next={this.fetchMoreData}
           hasMore={this.state.articles.length !== this.state.totalResults}
-          loader={<Spinner/>}
+          loader={<Spinner />}
         >
           <div className="container">
             <div className="row">
