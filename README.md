@@ -1,11 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -41,30 +33,19 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**---------------------IMPORTANT PACKAGES TO INSTALL-------------------**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**NodeModule,React-Router-dom,React-Infinite-scroll-component,React-top-loder-bar**
+Important package to install-
 
-### Code Splitting
+### `npm install`
+See the section about (https://www.npmjs.com/package/node-modules) for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `npm i react-router-dom`
+See the section about (https://www.npmjs.com/package/react-router-dom) for more information.
 
-### Analyzing the Bundle Size
+### `npm install --save react-infinite-scroll-component`
+See the section about (https://www.npmjs.com/package/react-infinite-scroll-component) for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `react-top-loading-bar`
+See the section about (https://www.npmjs.com/package/react-top-loading-bar) for more information.
