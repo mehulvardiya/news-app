@@ -6,7 +6,9 @@ const NavBar = (props) => {
   const { mode, toggleMode } = props;
   return (
     <div>
-      <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}>
+      <nav
+        className={`navbar fixed-top navbar-expand-lg navbar-${mode} bg-${mode}`}
+      >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             NewsMonkey

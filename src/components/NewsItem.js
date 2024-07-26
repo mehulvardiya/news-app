@@ -43,8 +43,11 @@ const NewsItem = (props) => {
             {title}
           </h5>
           <p className="card-text">{description}...</p>
-          <p className="card-text" style={{ fontSize: "0.75em", color: "blue" }}>
-              By {!author ? "unknown" : author} on {publishedDate.toGMTString()}
+          <p
+            className="card-text"
+            style={{ fontSize: "0.75em", color: "blue" }}
+          >
+            By {!author ? "unknown" : author} on {publishedDate.toGMTString()}
           </p>
           <a
             rel="noreferrer"
